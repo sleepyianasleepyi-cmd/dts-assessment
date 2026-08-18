@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(88, 88, 163);
+    background-color: rgb(10, 22, 87);
     padding: 14px 40px;
 }
 
@@ -31,5 +31,7 @@ body {
 
 .menu a:hover {
     color: rgb(24, 24, 58);
-    background-color: rgb(197, 197, 255)
+    padding: 5px;
+    font-size: 23px;
+    background-color: rgb(255, 219, 103);
 }
