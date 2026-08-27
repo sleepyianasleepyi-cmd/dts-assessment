@@ -28,3 +28,28 @@ body {
     font-size: 21px;
     background-color: rgb(253, 194, 0);
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(5, 11, 44);
+    padding: 3px 10px;
+}
+
+.footermenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 16 px;
+    margin-left: 10px;
+    border-radius: 6px;
+    transition: 0.5 s;
+}
+
+.footermenu a:hover {
+    color: rgb(22, 22, 57);
+    padding: 5px;
+    font-size: 21px;
+    background-color: rgb(253, 194, 0);
+}
