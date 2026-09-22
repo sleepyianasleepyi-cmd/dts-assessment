@@ -60,13 +60,18 @@ h1 {
 }
 
 p {
-    color: rgb(1, 14, 53);
+    color: rgb(2, 24, 87);
     font-size: 17px;
 }
 
 .title {
     display: flex;
     background-color: rgb(171, 191, 244);
+}
+
+.subtitle {
+    display: flex;
+    background-color: rgb(192, 208, 252);
 }
 
 
