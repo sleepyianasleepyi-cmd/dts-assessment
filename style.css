@@ -53,3 +53,13 @@ body {
     font-size: 21px;
     background-color: rgb(253, 194, 0);
 }
+
+h1 {
+    color: black;
+    font-size: 40px;
+}
+
+p {
+    color: rgb(1, 14, 53);
+    font-size: 17px;
+}

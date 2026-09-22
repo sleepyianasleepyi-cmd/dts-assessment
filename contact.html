@@ -25,37 +25,33 @@
 
 <!-- Creating the actual webpage down below! -->
 
-<h1> CONTACT HERE: </h1>
+<h1> CONTACT: </h1>
+
+<p> Questions? Queries? Concerns? <br><br>
+ Ask away! The contact form is down below. <br><br>
+ Each asterisk indicates a required field you must fill. <br><br>
+ Please fill out the following information in this form: <br></p>
+
 <br>
     <form>
         <div>
-         <label for="fname">First Name:</label>
+         <label for="fname">First Name * :</label>
          <input type="text" id="fname" name="fname" placeholder="Jane" required>
         </div>
         <br>
         <div>
-         <label for="lname">Last Name:</label>
+         <label for="lname">Last Name * :</label>
          <input type="text" id="lname" name="lname" placeholder="Doe" required>
         </div>
         <br>
         <div>
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" placeholder="JDoe@gmail.com">
+            <label for="email">Email Address * :</label>
+            <input type="email" id="email" name="email" placeholder="JDoe@gmail.com" required>
         </div>
         <br>
         <div>
-            <label for="pass">Password:</label>
-            <input type="password" id="pass" name="pass" maxlength="12" required>
-        </div>
-        <br>
-        <div>
-            <label for="confirmpass">Confirm Password:</label>
-            <input type="password" if="confirmpass" name="confirmpass" maxlength="12" required>
-        </div>
-        <br>
-        <div>
-            <label for="phone">Phone Number:</label>
-            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890">
+            <label for="phone">Phone Number * :</label>
+            <input type="tel" id="phone" name="phone" placeholder="(123)-456-7890" maxlength="21" required>
         </div>
         <br>
         <div>
@@ -72,8 +68,8 @@
         </div>
         <br>
         <div>
-            <label for="tc">I agree to the terms and conditions</label>
-            <input type="checkbox" id="tc" name="tc">
+            <label for="tc">I agree to the terms and conditions * </label>
+            <input type="checkbox" id="tc" name="tc" required>
         </div>
         <br>
         <div>
